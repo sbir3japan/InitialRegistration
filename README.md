@@ -1,14 +1,16 @@
 ユーザー作成後
 
-'''bash
+```bash
 sudo apt update
 sudo apt install -y build-essential
 bash ./install_qrencode_user.sh
 bash ./keyregist.sh
-'''
+```
+
 鍵の登録依頼
 
 依頼完了後
-'''bash
+
+```bash
 bash ./fetch_verification.sh
-'''
+```
