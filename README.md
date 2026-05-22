@@ -2,7 +2,7 @@
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential
+sudo apt install -y build-essential pkg-config curl ca-certificates
 bash ./install_qrencode_user.sh
 bash ./keyregist.sh
 ```
